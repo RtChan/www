@@ -164,7 +164,7 @@ table th {
     list-style: none;
 }
 #toc li {
-    padding: 5px 10px;
+    padding: 1px 5px;
 }
 #toc a {
     text-decoration: none;
@@ -181,6 +181,12 @@ table th {
     padding-left: 20px;
 }
 #toc .toc-active {
+    outline: none;
     font-weight: bold;
     border-left:5px solid #069
+}
+/* 去除目录点击后的虚线框 */
+a:focus {
+    outline:none;
+    -moz-outline:none;
 }
